@@ -89,12 +89,15 @@ export default {
 
 <style scoped>
 .bottom-bar {
+  bottom: 0px;
+  top: 0px;
   display: flex;
   height: 40px;
   background-color: #eee;
   position: relative;
   line-height: 40px;
   font-size: 14px;
+  z-index: 999;
 }
 .check-content {
   display: flex;
